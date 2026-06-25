@@ -10,7 +10,7 @@ terraform {
     # }
   }
   backend "s3" {
-    bucket = "manoharmotam-remote-state-dev"
+    bucket = "manoharmotam-remote-state-test"
     key = "testing/ec2.tfstate"
     region = "us-east-1"
     use_lockfile = true
